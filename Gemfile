@@ -38,7 +38,7 @@ gem 'discard'
 gem "seedbank"
 gem 'active_model_serializers'
 gem 'dotenv-rails'
-gem 'rack-cors', '~> 0.4.0'
+gem 'rack-cors', '~> 1.0.5'
 gem 'activeadmin'
 gem 'active_material', github: 'vigetlabs/active_material'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
