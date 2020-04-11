@@ -189,7 +189,7 @@ body {
     font-weight: 600;
     color: #3f3a46;
 	position: relative;
-    background: url(bg.jpg) center top repeat;
+    background: url(asset_path("bg.jpg")) center top repeat;
     background-size: 100% auto;
 }
 .ie7 body {background: none; filter:none; font-size:20px; color: #333; text-align: center; padding-top: 200px;}
@@ -496,12 +496,12 @@ p.italic {font-style: italic;}
 .btn-join i {
     width: 29px;
     height: 33px;
-    background: url(images/icons/join.png) 0 0 no-repeat;
+    background: url(asset_path("join.png")) 0 0 no-repeat;
     vertical-align: middle;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .btn-join i {
-        background-image: url(images/icons/join-x2.png);
+        background-image: url(asset_path("join-x2.png"));
         background-size: 29px auto;
     }
 }
@@ -767,86 +767,86 @@ p.italic {font-style: italic;}
     background-position: right top;
     background-repeat: no-repeat;
 }
-.bg-image-cam {background-image: url(images/icons/bg-cam.png);}
-.bg-image-cam2 {background-image: url(images/icons/bg-cam2.png);}
-.bg-image-cam3 {background-image: url(images/icons/bg-cam3.png);}
-.bg-image-envelope {background-image: url(images/icons/bg-envelope.png);}
-.bg-image-envelope2 {background-image: url(images/icons/bg-envelope2.png);}
-.bg-image-letter {background-image: url(images/icons/bg-letter.png);}
-.bg-image-letter2 {background-image: url(images/icons/bg-letter2.png);}
-.bg-image-list {background-image: url(images/icons/bg-list.png);}
-.bg-image-note {background-image: url(images/icons/bg-note.png);}
-.bg-image-quote {background-image: url(images/icons/bg-quote.png);}
-.bg-image-quote2 {background-image: url(images/icons/bg-quote2.png);}
-.bg-image-quotes {background-image: url(images/icons/bg-quotes.png);}
-.bg-image-star {background-image: url(images/icons/bg-star.png);}
-.bg-image-tag {background-image: url(images/icons/bg-tag.png);}
-.bg-image-window {background-image: url(images/icons/bg-window.png);}
-.bg-image-books {background-image: url(images/icons/bg-books.png);}
-.bg-image-gift {background-image: url(images/icons/bg-gift.png);}
-.bg-image-mic {background-image: url(images/icons/bg-mic.png);}
-.bg-image-info {background-image: url(images/icons/bg-info.png);}
-.bg-image-cam4 {background-image: url(images/icons/bg-cam4.png);}
-.bg-image-note2 {background-image: url(images/icons/bg-note2.png);}
-.bg-image-envelope3 {background-image: url(images/icons/bg-envelope3.png);}
-.bg-image-envelope4 {background-image: url(images/icons/bg-envelope4.png);}
-.bg-image-star2 {background-image: url(images/icons/bg-star2.png);}
-.bg-image-heart {background-image: url(images/icons/bg-heart.png);}
-.bg-image-clock {background-image: url(images/icons/bg-clock.png);}
-.bg-image-note3 {background-image: url(images/icons/bg-note3.png);}
-.bg-image-clapper {background-image: url(images/icons/bg-clapper.png);}
-.bg-image-notice {background-image: url(images/icons/bg-notice.png);}
-.bg-image-warning {background-image: url(images/icons/bg-warning.png);}
-.bg-image-error {background-image: url(images/icons/bg-error.png);}
-.bg-image-success {background-image: url(images/icons/bg-success.png);}
-.bg-image-letter3 {background-image: url(images/icons/bg-letter3.png);}
-.bg-image-cross {background-image: url(images/icons/bg-cross.png);}
-.bg-image-lock {background-image: url(images/icons/bg-lock.png);}
-.bg-image-spanner {background-image: url(images/icons/bg-spanner.png);}
-.bg-image-home {background-image: url(images/icons/bg-home.png);}
-.bg-image-arrow {background-image: url(images/icons/bg-arrow.png);}
-.bg-image-note4 {background-image: url(images/icons/bg-note4.png);}
+.bg-image-cam {background-image: url(asset_path("bg-cam.png"));}
+.bg-image-cam2 {background-image: url(asset_path("bg-cam2.png"));}
+.bg-image-cam3 {background-image: url(asset_path("bg-cam3.png"));}
+.bg-image-envelope {background-image: url(asset_path("bg-envelope.png"));}
+.bg-image-envelope2 {background-image: url(asset_path("bg-envelope2.png"));}
+.bg-image-letter {background-image: url(asset_path("bg-letter.png"));}
+.bg-image-letter2 {background-image: url(asset_path("bg-letter2.png"));}
+.bg-image-list {background-image: url(asset_path("bg-list.png"));}
+.bg-image-note {background-image: url(asset_path("bg-note.png"));}
+.bg-image-quote {background-image: url(asset_path("bg-quote.png"));}
+.bg-image-quote2 {background-image: url(asset_path("bg-quote2.png"));}
+.bg-image-quotes {background-image: url(asset_path("bg-quotes.png"));}
+.bg-image-star {background-image: url(asset_path("bg-star.png"));}
+.bg-image-tag {background-image: url(asset_path("bg-tag.png"));}
+.bg-image-window {background-image: url(asset_path("bg-window.png"));}
+.bg-image-books {background-image: url(asset_path("bg-books.png"));}
+.bg-image-gift {background-image: url(asset_path("bg-gift.png"));}
+.bg-image-mic {background-image: url(asset_path("bg-mic.png"));}
+.bg-image-info {background-image: url(asset_path("bg-info.png"));}
+.bg-image-cam4 {background-image: url(asset_path("bg-cam4.png"));}
+.bg-image-note2 {background-image: url(asset_path("bg-note2.png"));}
+.bg-image-envelope3 {background-image: url(asset_path("bg-envelope3.png"));}
+.bg-image-envelope4 {background-image: url(asset_path("bg-envelope4.png"));}
+.bg-image-star2 {background-image: url(asset_path("bg-star2.png"));}
+.bg-image-heart {background-image: url(asset_path("bg-heart.png"));}
+.bg-image-clock {background-image: url(asset_path("bg-clock.png"));}
+.bg-image-note3 {background-image: url(asset_path("bg-note3.png"));}
+.bg-image-clapper {background-image: url(asset_path("bg-clapper.png"));}
+.bg-image-notice {background-image: url(asset_path("bg-notice.png"));}
+.bg-image-warning {background-image: url(asset_path("bg-warning.png"));}
+.bg-image-error {background-image: url(asset_path("bg-error.png"));}
+.bg-image-success {background-image: url(asset_path("bg-success.png"));}
+.bg-image-letter3 {background-image: url(asset_path("bg-letter3.png"));}
+.bg-image-cross {background-image: url(asset_path("bg-cross.png"));}
+.bg-image-lock {background-image: url(asset_path("bg-lock.png"));}
+.bg-image-spanner {background-image: url(asset_path("bg-spanner.png"));}
+.bg-image-home {background-image: url(asset_path("bg-home.png"));}
+.bg-image-arrow {background-image: url(asset_path("bg-arrow.png"));}
+.bg-image-note4 {background-image: url(asset_path("bg-note4.png"));}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
-    .bg-image-cam {background-image: url(images/icons/bg-cam-x2.png); background-size: 247px auto;}
-    .bg-image-cam2 {background-image: url(images/icons/bg-cam2-x2.png); background-size: 192px auto;}
-    .bg-image-cam3 {background-image: url(images/icons/bg-cam3-x2.png); background-size: 171px auto;}
-    .bg-image-envelope {background-image: url(images/icons/bg-envelope-x2.png); background-size: 154px auto;}
-    .bg-image-envelope2 {background-image: url(images/icons/bg-envelope2-x2.png); background-size: 215px auto;}
-    .bg-image-letter {background-image: url(images/icons/bg-letter-x2.png); background-size: 292px auto;}
-    .bg-image-letter2 {background-image: url(images/icons/bg-letter2-x2.png); background-size: 206px auto;}
-    .bg-image-list {background-image: url(images/icons/bg-list-x2.png); background-size: 183px auto;}
-    .bg-image-note {background-image: url(images/icons/bg-note-x2.png); background-size: 198px auto;}
-    .bg-image-quote {background-image: url(images/icons/bg-quote-x2.png); background-size: 166px auto;}
-    .bg-image-quote2 {background-image: url(images/icons/bg-quote2-x2.png); background-size: 166px auto;}
-    .bg-image-quotes {background-image: url(images/icons/bg-quotes-x2.png); background-size: 228px auto;}
-    .bg-image-star {background-image: url(images/icons/bg-star-x2.png); background-size: 180px auto;}
-    .bg-image-tag {background-image: url(images/icons/bg-tag-x2.png); background-size: 174px auto;}
-    .bg-image-window {background-image: url(images/icons/bg-window-x2.png); background-size: 389px auto;}
-    .bg-image-books {background-image: url(images/icons/bg-books-x2.png); background-size: 76px auto;}
-    .bg-image-gift {background-image: url(images/icons/bg-gift-x2.png); background-size: 86px auto;}
-    .bg-image-mic {background-image: url(images/icons/bg-mic-x2.png); background-size: 59px auto;}
-    .bg-image-info {background-image: url(images/icons/bg-info-x2.png); background-size: 119px auto;}
-    .bg-image-cam4 {background-image: url(images/icons/bg-cam4-x2.png); background-size: 151px auto;}
-    .bg-image-note2 {background-image: url(images/icons/bg-note2-x2.png); background-size: 179px auto;}
-    .bg-image-envelope3 {background-image: url(images/icons/bg-envelope3-x2.png); background-size: 304px auto;}
-    .bg-image-envelope4 {background-image: url(images/icons/bg-envelope4-x2.png); background-size: 785px auto;}
-    .bg-image-star2 {background-image: url(images/icons/bg-star2-x2.png); background-size: 247px auto;}
-    .bg-image-heart {background-image: url(images/icons/bg-heart-x2.png); background-size: 105px auto;}
-    .bg-image-clock {background-image: url(images/icons/bg-clock-x2.png); background-size: 146px auto;}
-    .bg-image-note3 {background-image: url(images/icons/bg-note3-x2.png); background-size: 103px auto;}
-    .bg-image-clapper {background-image: url(images/icons/bg-clapper-x2.png); background-size: 135px auto;}
-    .bg-image-notice {background-image: url(images/icons/bg-notice-x2.png); background-size: 91px auto;}
-    .bg-image-warning {background-image: url(images/icons/bg-warning-x2.png); background-size: 107px auto;}
-    .bg-image-error {background-image: url(images/icons/bg-error-x2.png); background-size: 155px auto;}
-    .bg-image-success {background-image: url(images/icons/bg-success-x2.png); background-size: 104px auto;}
-    .bg-image-letter3 {background-image: url(images/icons/bg-letter3-x2.png); background-size: 176px auto;}
-    .bg-image-cross {background-image: url(images/icons/bg-cross-x2.png); background-size: 166px auto;}
-    .bg-image-lock {background-image: url(images/icons/bg-lock-x2.png); background-size: 116px auto;}
-    .bg-image-spanner {background-image: url(images/icons/bg-spanner-x2.png); background-size: 137px auto;}
-    .bg-image-home {background-image: url(images/icons/bg-home-x2.png); background-size: 143px auto;}
-    .bg-image-arrow {background-image: url(images/icons/bg-arrow-x2.png); background-size: 337px auto;}
-    .bg-image-note4 {background-image: url(images/icons/bg-note4-x2.png); background-size: 143px auto;}
+    .bg-image-cam {background-image: url(asset_path("bg-cam-x2.png")); background-size: 247px auto;}
+    .bg-image-cam2 {background-image: url(asset_path("bg-cam2-x2.png")); background-size: 192px auto;}
+    .bg-image-cam3 {background-image: url(asset_path("bg-cam3-x2.png")); background-size: 171px auto;}
+    .bg-image-envelope {background-image: url(asset_path("bg-envelope-x2.png")); background-size: 154px auto;}
+    .bg-image-envelope2 {background-image: url(asset_path("bg-envelope2-x2.png")); background-size: 215px auto;}
+    .bg-image-letter {background-image: url(asset_path("bg-letter-x2.png")); background-size: 292px auto;}
+    .bg-image-letter2 {background-image: url(asset_path("bg-letter2-x2.png")); background-size: 206px auto;}
+    .bg-image-list {background-image: url(asset_path("bg-list-x2.png")); background-size: 183px auto;}
+    .bg-image-note {background-image: url(asset_path("bg-note-x2.png")); background-size: 198px auto;}
+    .bg-image-quote {background-image: url(asset_path("bg-quote-x2.png")); background-size: 166px auto;}
+    .bg-image-quote2 {background-image: url(asset_path("bg-quote2-x2.png")); background-size: 166px auto;}
+    .bg-image-quotes {background-image: url(asset_path("bg-quotes-x2.png")); background-size: 228px auto;}
+    .bg-image-star {background-image: url(asset_path("bg-star-x2.png")); background-size: 180px auto;}
+    .bg-image-tag {background-image: url(asset_path("bg-tag-x2.png")); background-size: 174px auto;}
+    .bg-image-window {background-image: url(asset_path("bg-window-x2.png")); background-size: 389px auto;}
+    .bg-image-books {background-image: url(asset_path("bg-books-x2.png")); background-size: 76px auto;}
+    .bg-image-gift {background-image: url(asset_path("bg-gift-x2.png")); background-size: 86px auto;}
+    .bg-image-mic {background-image: url(asset_path("bg-mic-x2.png")); background-size: 59px auto;}
+    .bg-image-info {background-image: url(asset_path("bg-info-x2.png")); background-size: 119px auto;}
+    .bg-image-cam4 {background-image: url(asset_path("bg-cam4-x2.png")); background-size: 151px auto;}
+    .bg-image-note2 {background-image: url(asset_path("bg-note2-x2.png")); background-size: 179px auto;}
+    .bg-image-envelope3 {background-image: url(asset_path("bg-envelope3-x2.png")); background-size: 304px auto;}
+    .bg-image-envelope4 {background-image: url(asset_path("bg-envelope4-x2.png")); background-size: 785px auto;}
+    .bg-image-star2 {background-image: url(asset_path("bg-star2-x2.png")); background-size: 247px auto;}
+    .bg-image-heart {background-image: url(asset_path("bg-heart-x2.png")); background-size: 105px auto;}
+    .bg-image-clock {background-image: url(asset_path("bg-clock-x2.png")); background-size: 146px auto;}
+    .bg-image-note3 {background-image: url(asset_path("bg-note3-x2.png")); background-size: 103px auto;}
+    .bg-image-clapper {background-image: url(asset_path("bg-clapper-x2.png")); background-size: 135px auto;}
+    .bg-image-notice {background-image: url(asset_path("bg-notice-x2.png")); background-size: 91px auto;}
+    .bg-image-warning {background-image: url(asset_path("bg-warning-x2.png")); background-size: 107px auto;}
+    .bg-image-error {background-image: url(asset_path("bg-error-x2.png")); background-size: 155px auto;}
+    .bg-image-success {background-image: url(asset_path("bg-success-x2.png")); background-size: 104px auto;}
+    .bg-image-letter3 {background-image: url(asset_path("bg-letter3-x2.png")); background-size: 176px auto;}
+    .bg-image-cross {background-image: url(asset_path("bg-cross-x2.png")); background-size: 166px auto;}
+    .bg-image-lock {background-image: url(asset_path("bg-lock-x2.png")); background-size: 116px auto;}
+    .bg-image-spanner {background-image: url(asset_path("bg-spanner-x2.png")); background-size: 137px auto;}
+    .bg-image-home {background-image: url(asset_path("bg-home-x2.png")); background-size: 143px auto;}
+    .bg-image-arrow {background-image: url(asset_path("bg-arrow-x2.png")); background-size: 337px auto;}
+    .bg-image-note4 {background-image: url(asset_path("bg-note4-x2.png")); background-size: 143px auto;}
 }
 
 /*===================================================*/
@@ -1017,12 +1017,12 @@ p.italic {font-style: italic;}
     left: 15px;
     width: 54px;
     height: 44px;
-    background-image: url(images/icons/service-icons.png);
+    background-image: url(asset_path("service-icons.png"));
     background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     [class*="service-icon-"] {
-        background-image: url(images/icons/service-icons-x2.png);
+        background-image: url(asset_path("service-icons-x2.png"));
         background-size: 54px auto;
     }
 }
@@ -1120,7 +1120,7 @@ p.italic {font-style: italic;}
 .price-links li i {
     width: 30px;
     height: 30px;
-    background: url(images/icons/pricing-icons.png) 0 0 no-repeat;
+    background: url(asset_path("pricing-icons.png")) 0 0 no-repeat;
     position: absolute;
     top: 13px;
     left: 18px;
@@ -1131,7 +1131,7 @@ p.italic {font-style: italic;}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .price-links li i {
-        background-image: url(images/icons/pricing-icons-x2.png);
+        background-image: url(asset_path("pricing-icons-x2.png"));
         background-size: 30px auto;
     }
 }
@@ -1333,12 +1333,12 @@ p.italic {font-style: italic;}
     display: block;
     width: 64px;
     height: 64px;
-    background-image: url(images/icons/categories-icons.png);
+    background-image: url(asset_path("categories-icons.png"));
     background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dppx) {
     .widget-categories li i:before {
-        background-image: url(images/icons/categories-icons-x2.png);
+        background-image: url(asset_path("categories-icons-x2.png"));
         background-size: 128px auto;
     }
 }
@@ -2568,11 +2568,11 @@ textarea:focus {
     color: #3f3a46;
     line-height: 15px;
     padding-left: 20px;
-    background: url(images/icons/rss.png) no-repeat;
+    background: url(asset_path("rss.png")) no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .widget-newsletter .newsletter-text {
-        background-image: url(images/icons/rss-x2.png);
+        background-image: url(asset_path("rss-x2.png"));
         background-size: 16px auto;
     }
 }
@@ -2846,14 +2846,14 @@ textarea:focus {
 [class^="tab-icon-"], [class*=" tab-icon-"] {
     width: 40px;
     height: 40px;
-    background: url(images/icons/tab-content-icons.png) 0 -2px no-repeat;
+    background: url(asset_path("tab-content-icons.png")) 0 -2px no-repeat;
     vertical-align: middle;
 }
 .tab-icon-2 {background-position: 0 -42px;}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     [class^="tab-icon-"], [class*=" tab-icon-"] {
-        background-image: url(images/icons/tab-content-icons-x2.png);
+        background-image: url(asset_path("tab-content-icons-x2.png"));
         background-size: 40px auto;
     }
 }
@@ -2969,11 +2969,11 @@ textarea:focus {
     width: 50px;
     height: 50px;
     margin: 0;
-    background: url(images/icons/tabs-icons.png) 0 0 no-repeat;
+    background: url(asset_path("tabs-icons.png")) 0 0 no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .tabs-framed-right .tabs i {
-        background-image: url(images/icons/tabs-icons-x2.png);
+        background-image: url(asset_path("tabs-icons-x2.png"));
         background-size: 100px auto;
     }
 }
@@ -3189,7 +3189,7 @@ textarea:focus {
     margin: -18px 0 0 -18px;
     width: 36px;
     height: 36px;
-    background: url(images/icons/alert-icons.png) 0 0 no-repeat;
+    background: url(asset_path("alert-icons.png")) 0 0 no-repeat;
 }
 .alert-warning .alert-icon:before {background-position: 0 -36px;}
 .alert-error .alert-icon:before {background-position: 0 -72px;}
@@ -3197,7 +3197,7 @@ textarea:focus {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .alert-icon:before {
-        background: url(images/icons/alert-icons-x2.png) no-repeat;
+        background: url(asset_path("alert-icons-x2.png")) no-repeat;
         background-size: 36px auto;
     }
 }
@@ -3827,11 +3827,11 @@ textarea:focus {
     width: 40px;
     height: 40px;
     margin: 0 auto 2px;
-    background: url(images/icons/menu-icons.png) 0 0 no-repeat;
+    background: url(asset_path("menu-icons.png")) 0 0 no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .menu-icon {
-        background-image: url(images/icons/menu-icons-x2.png);
+        background-image: url(asset_path("menu-icons-x2.png"));
         background-size: 80px auto;
     }
 }
@@ -3918,13 +3918,13 @@ textarea:focus {
 .widget-schedule .widget-title i {
     width: 43px;
     height: 41px;
-    background: url(images/icons/schedule.png) 0 0 no-repeat;
+    background: url(asset_path("schedule.png")) 0 0 no-repeat;
     display: block;
     margin: 0 auto 4px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .widget-schedule .widget-title i {
-        background-image: url(images/icons/schedule-x2.png);
+        background-image: url(asset_path("schedule-x2.png"));
         background-size: 43px auto;
     }
 }
