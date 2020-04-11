@@ -1,0 +1,57 @@
+<!-- row-->
+<div class="row">
+    <div class="col-sm-8">
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- content-->
+                <%= render partial: 'home/todays_match' %>
+                <!--/ content-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- content-->
+                <!-- post item -->
+                    <div class="post-item boxed quotes">
+                        <div class="post-content bg-image-quotes">
+                            <h2 class="post-title"><a href="#"><%= @news %></a></h2>
+                            <% if @last_match.present? %>
+                                <ul class="post-links-alt">
+                                    <li class="post-date"><a href="#">Watch Now</a></li>
+                                    <li class="post-author"><a href="#">Scorecard</a></li>
+                                </ul>
+                            <% end %>
+                        </div>
+                    </div>
+                    <!--/ post item -->
+                <!--/ content-->
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <!-- sidebar-->
+        <div class="row">
+            <div class="col-sm-12">
+                <%= render partial: 'home/points_table_short' %>
+            </div>
+        </div>
+        <!--/ sidebar-->
+        <!-- Join Us Button -->
+        <div class="row">
+            <div class="col-sm-12">
+                <%= link_to points_table_path, class: "btn btn-join btn-green" do %><span>Detailed Points Table</span><% end %>
+            </div>
+        </div>
+        <!--/ Join Us Button -->
+    </div>
+</div>
+<!--/ row-->
+<!-- Widget Schedule -->
+
+<!-- row -->
+<div class="row">
+    <div class="col-sm-12">
+        <%= render partial: 'home/upcoming' %>
+    </div>
+</div>

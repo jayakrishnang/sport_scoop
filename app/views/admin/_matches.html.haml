@@ -1,0 +1,22 @@
+= semantic_form_for [:admin, @match], builder: ActiveAdmin::FormBuilder do |f|
+  = f.inputs "Details" do
+    = f.inputs do
+      = f.input :number
+      = f.input :name
+      = f.input :short_name
+      = f.input :banner, as: :file
+      = f.input :start_time
+      = f.input :end_time
+      = f.input :url
+      = f.input :status
+      = f.input :description
+      = f.input :winner_id, as: :select, collection: Team.pluck(:name, :id)
+      - f.has_many :match_teams do |a|
+        - a.input :team_id, as: :select, collection: Team.pluck(:name, :id)
+        - a.input :runs_scored
+        - a.input :balls_played
+        - a.input :runs_conceded
+        - a.input :balls_bowled
+        - a.input :outcome
+      = f.actions
+  

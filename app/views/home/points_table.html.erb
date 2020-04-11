@@ -1,0 +1,33 @@
+<table class="fullwidth"><tr>
+    <th width="40%"><h4>MATCHES</h4></th>
+    <th width="15%" class="text-center"><h4>WON</h4></th>
+    <th width="15%" class="text-center"><h4>LOST</h4></th>
+    <th width="15%" class="text-left"><h4>POINTS</h4></th>
+    <th width="15%" class="text-left"><h4>NRR</h4></th>
+</tr></table>
+<!--/ Toggle content -->
+<% @points_table.each do |points| %>
+    <!-- Toggle content -->
+    <div class="toggle boxed collapsed">
+        <div class="toggle-header">
+            <a class="toggle-link collapsed" data-toggle="collapse" href="#toggle<%= points['short_name'] %>">
+                <table class="fullwidth"><tr>
+                    <td width="40%"><%= points['name'] %></td>
+                    <td width="15%"  class="text-center"><%= points['wins'] %></td>
+                    <td width="15%"  class="text-center"><%= points['losses'] %></td>
+                    <td width="15%"  class="text-center"><%= points['no_results'] %></td>
+                    <td width="15%"  class="text-center"><%= points['net_run_rate'] %></td>
+                </tr></table></a>
+        </div>
+        <div id="toggle<%= points['short_name'] %>" class="toggle-body collapse">
+            <div class="inner">
+                <p class="small">Vestibulum turpis est, interdum vitae condimentum et, adipiscing nec odio. Praesent id mollis lectus. Proin fermentum placerat nunc, a aliquam lacus blandit et. Proin id gravida tortor. Donec sem massa, semper ac tempus ac, convallis at ipsum. Nullam ut ultricies purus. Quisque laoreet</p>
+                <ul class="toggle-links clearfix">
+                    <li class="toggle-date"><a href="#">06 DEC 2013</a></li>
+                    <li class="toggle-author"><a href="#">by Miranda Sey</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/ Toggle content -->
+<% end %>

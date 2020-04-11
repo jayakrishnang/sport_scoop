@@ -1,0 +1,5 @@
+<% if params[:category] == 'recent' %>
+  <%= render partial: 'matches/recent' %>
+<% else %>
+  <%= render partial: 'matches/schedule' %>
+<% end %>

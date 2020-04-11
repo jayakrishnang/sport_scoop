@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: MyString
+  name: MyString
+  banner: MyString
+  start_time: 2020-04-08 08:49:46
+  end_time: 2020-04-08 08:49:46
+  status: 1
+  winner_id: 
+
+two:
+  number: MyString
+  name: MyString
+  banner: MyString
+  start_time: 2020-04-08 08:49:46
+  end_time: 2020-04-08 08:49:46
+  status: 1
+  winner_id: 

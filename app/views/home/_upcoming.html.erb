@@ -1,0 +1,58 @@
+<div class="widget-container widget-schedule clearfix">
+    <h2 class="widget-title"><i></i>Up Next</h2>
+    <div class="carousel">
+        <ul id="schedule">
+            <% Match.first(4).each do |match| %>
+                <li class="schedule-item clearfix">
+                    <div class="schedule-left">
+                        <div class="schedule-name"><%= match.short_name %></div>
+                        <div class="schedule-date"><%= match.start_time.strftime('%b ') + match.start_time.day.ordinalize %></div>
+                        <ul class="post-links-alt">
+                            <li class="post-more"><a href="#">7:00PM</a></li>
+                        </ul>
+                    </div>
+                    <div class="schedule-right">
+                        <div class="schedule-avatar"><a href="#"><%= image_tag match.banner %></a></div>
+                        <div class="schedule-links">
+                            <a class="schedule-details" href="#"><i class="fa fa-info-circle"></i>Info</a>
+                        </div>
+                    </div>
+                </li>
+            <% end %>
+        </ul>
+        <a class="prev" id="schedule-prev" href="#">&lsaquo;</a>
+        <a class="next" id="schedule-next" href="#">&rsaquo;</a>
+    </div>
+</div>
+
+<script>
+    jQuery(document).ready(function ($) {
+
+        function scheduleInit() {
+            $('#schedule').carouFredSel({
+                swipe : {
+                    onTouch: true
+                },
+                prev: '#schedule-prev',
+                next: "#schedule-next",
+                auto: {
+                    play: true,
+                    timeoutDuration: 16000
+                },
+                scroll: {
+                    pauseOnHover: true,
+                    items: 1,
+                    duration: 500,
+                    easing: 'swing'
+                }
+            });
+        }
+
+        scheduleInit();
+
+        $(window).resize(function() {
+            scheduleInit();
+        });
+    });
+</script>
+<!--/ Widget Schedule -->

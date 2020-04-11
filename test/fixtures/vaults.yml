@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team_1: 
+  team_2: 
+  team_1_score: 1
+  team_1_wickets: 1
+  team_1_overs: 9.99
+  team_1_run_rate: 9.99
+  team_1_extras: 1
+  team_2_score: 1
+  team_2_wickets: 1
+  team_2_overs: 9.99
+  team_1_run_rate: 9.99
+  team_2_extras: 1
+  victory_margin: MyString
+  team_1_batting: 
+  team_2_bowling: 
+  team_2_batting: 
+  team_1_bowling: 
+
+two:
+  team_1: 
+  team_2: 
+  team_1_score: 1
+  team_1_wickets: 1
+  team_1_overs: 9.99
+  team_1_run_rate: 9.99
+  team_1_extras: 1
+  team_2_score: 1
+  team_2_wickets: 1
+  team_2_overs: 9.99
+  team_1_run_rate: 9.99
+  team_2_extras: 1
+  victory_margin: MyString
+  team_1_batting: 
+  team_2_bowling: 
+  team_2_batting: 
+  team_1_bowling: 

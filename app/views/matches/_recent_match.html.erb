@@ -1,0 +1,33 @@
+<!-- post item -->
+<div class="post-item boxed style5">
+    <div class="post-content bg-image-letter clearfix">
+        <div class="post-image"><%= link_to match_path(match) do %>
+            <%= image_tag match.banner %>
+            <% end %></div>
+        <h2 class="post-title"><a href="#"><%= match.summary_message %></a></h2>
+        <h6 class="post-subtitle"><%= match.summary.first %></h6>
+        <h6 class="post-subtitle"><%= match.summary.last %></h6>
+        <ul class="post-links-alt">
+            <li class="post-date"><a href="#">12 DEC 2013</a></li>
+            <li class="post-author"><a href="#">by Byron Flitsch</a></li>
+        </ul>
+        <div class="post-desc">
+            <p>Praesent magna nunc, tincidunt pretium conseq uatd apibus, mollis nec odio. Nunfeugiat moles tie orci, eu rutrum velit dignissim. Donec velsemper elit.</p>
+        </div>
+        <ul class="post-links-alt">
+            <% if match.scheduled? %>
+                <li class="post-more"><a href="#">Match not started yet!</a></li>
+            <% else %>
+                <li class="post-more"><a href="<%= @current_match.url %>">Watch now<i class="fa fa-play"></i></a></li>
+            <% end %>
+            <br/>
+        </ul>
+    </div>
+    <div class="post-meta-bot">
+        <ul class="post-links green clearfix">
+            <li class="text"><%= match.short_name %></li>
+            <li class="post-more"><%= link_to match_path(match) do %><i class="icon-small-next"></i>Info<% end %></li>
+        </ul>
+    </div>
+</div>
+<!--/ post item -->

@@ -1,0 +1,19 @@
+<!-- post item -->
+<div class="post-item boxed style3">
+    <div class="clearfix bg-image-note">
+        <div class="post-content">
+            <h2 class="post-title"><a href="#"><%= match.name %></a></h2>
+            <h6 class="post-subtitle"><%= match.summary_message %></h6>
+            <div class="post-desc">
+                <p><%= match.description %></p>
+            </div>
+        </div>
+        <div class="post-meta-bot">
+            <div class="post-event-date">
+                <strong><%= match.start_time.day %></strong>
+                <p><span><%= match.start_time.strftime('%b') %>'<%= match.start_time.strftime('%y') %></span> <em><%= match.start_time.strftime('%-l:%M %p') %></em></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ post item -->

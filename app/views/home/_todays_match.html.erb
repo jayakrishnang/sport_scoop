@@ -1,0 +1,23 @@
+<div class="content zero-padding-bottom" role="main">
+    <div class="post-tabs clearfix">
+        <div class="post-tabs-content boxed">
+            <!-- post item -->
+            <div class="post-item style6 clearfix bg-image-arrow active">
+                <div class="post-image"><a href="<%= @current_match.url %>" rel="noopener noreferrer" target="_blank" title="Music"><%= image_tag @current_match.banner %></a></div>
+                <div class="post-content">
+                    <h6 class="post-subtitle">TODAY'S MATCH</h6>
+                    <h2 class="post-title"><%= @current_match.short_name %></h2>
+                    <div class="post-desc">
+                        <p><%= @current_match.description %></p>
+                    </div>
+                    <ul class="post-links-alt">
+                        <li class="post-more"><a href="#">Watch now<i class="fa fa-play"></i></a></li>
+                        <li class="post-more"><%= link_to match_path(@current_match) do %>Scorecard<i class="fa fa-th-list"></i><% end %></li>
+                        <br/>
+                    </ul>
+                </div>
+            </div>
+            <!--/ post item -->
+        </div>
+    </div>
+</div>

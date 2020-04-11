@@ -1,0 +1,107 @@
+<%= render partial: 'matches/recent_match', locals: { match: @match } %>
+<% if @scorecard.present? %>
+    <!-- post item-->
+    <div class="post-item intro-text boxed">
+        <h2 class="post-title"><a href="#"><%= @scorecard.team_1.short_name %> <%= @scorecard.team_1_summary %></a></h2>
+        <h6 class="post-subtitle">Run Rate: <%= @scorecard.team_1_run_rate %></h6>
+        <div class="post-desc">
+            <table class="table">
+                <tr>
+                    <th>BATSMEN</th>
+                    <th/>
+                    <th>RUNS</th>
+                    <th>BALLS</th>
+                    <th>FOURS</th>
+                    <th>SIXES</th>
+                    <th>STRIKE RATE</th>
+                </tr>
+                <% JSON.parse(@scorecard.team_1_batting).each do |score| %>
+                    <tr>
+                        <% score.each do |value| %>
+                            <td><%= value %></td>
+                        <% end %>
+                    </tr>
+                <% end %>
+            </table>
+        </div>
+        <h6 class="post-subtitle">Extras: <%= @scorecard.team_1_extras %></h6>
+        <div class="post-desc">
+            <table class="table">
+                <tr>
+                    <th>BOWLER</th>
+                    <th>OVERS</th>
+                    <th>MAIDENS</th>
+                    <th>RUNS</th>
+                    <th>WICKETS</th>
+                    <th>ECONOMY</th>
+                    <th>DOTS</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>WD</th>
+                    <th>NB</th>
+                </tr>
+                <% JSON.parse(@scorecard.team_2_bowling).each do |score| %>
+                    <tr>
+                        <% score.each do |value| %>
+                            <td><%= value %></td>
+                        <% end %>
+                    </tr>
+                <% end %>
+            </table>
+        </div>
+    </div>
+    <!--/post item-->
+
+    <!-- post item-->
+    <div class="post-item intro-text boxed">
+        <h2 class="post-title"><a href="#"><%= @scorecard.team_2.short_name %> <%= @scorecard.team_2_summary %></a></h2>
+        <h6 class="post-subtitle">Run Rate: <%= @scorecard.team_2_run_rate %></h6>
+        <div class="post-desc">
+            <table class="table">
+                <tr>
+                    <th>BATSMEN</th>
+                    <th/>
+                    <th>RUNS</th>
+                    <th>BALLS</th>
+                    <th>FOURS</th>
+                    <th>SIXES</th>
+                    <th>STRIKE RATE</th>
+                </tr>
+                <% JSON.parse(@scorecard.team_2_batting).each do |score| %>
+                    <tr>
+                        <% score.each do |value| %>
+                            <td><%= value %></td>
+                        <% end %>
+                    </tr>
+                <% end %>
+            </table>
+        </div>
+        <h6 class="post-subtitle">Extras: <%= @scorecard.team_2_extras %></h6>
+
+        <div class="post-desc">
+            <table class="table">
+                <tr>
+                    <th>BOWLER</th>
+                    <th>OVERS</th>
+                    <th>MAIDENS</th>
+                    <th>RUNS</th>
+                    <th>WICKETS</th>
+                    <th>ECONOMY</th>
+                    <th>DOTS</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>WD</th>
+                    <th>NB</th>
+                </tr>
+                <% JSON.parse(@scorecard.team_1_bowling).each do |score| %>
+                    <tr>
+                        <% score.each do |value| %>
+                            <td><%= value %></td>
+                        <% end %>
+                    </tr>
+                <% end %>
+            </table>
+        </div>
+    </div>
+    <!--/post item-->
+<% end %>
